@@ -1,0 +1,42 @@
+canonical_identifier: bkk:krp/KR6n0040/v1
+canonical_location: https://kanripo.org/bkk/KR6n0040/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 註成唯識論
+  identifiers:
+    alt_id:
+    - X50n0817
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/X/X50/X50n0817.xml
+    old_id: X50n0817
+  edition:
+    short: bkk
+editions:
+- short: 卍續
+  label: 卍續
+  source_xml_id: wit.orig
+- short: X
+assets:
+  parts:
+  - {seq: 0, filename: KR6n0040_000.yaml, hash: 'sha256:c5cc686634602d5364c4e4b1a2a937c31ae08e14e2086935da207bb5eee8ce2c'}
+  - {seq: 17, filename: KR6n0040_017.yaml, hash: 'sha256:02166aae5d1edcdab487e567db87ffca6d2abc8ba15d996f04523282a15cda78'}
+  markers:
+  - {seq: 17, role: markers, filename: assets/KR6n0040_017.markers.yaml, hash: 'sha256:d6bfd510a64d81a36f7cb6a16ca7919f6cc18bae1f69ac58b34c01a8f6437f14'}
+table_of_contents:
+- ref:
+    seq: 17
+    marker_id: KR6n0040_X_017-juan-start
+    span:
+    - body
+    - 0
+    - 6876
+  label: 註成唯識論卷第十七
+  type: juan
+  level: 1
+hash: sha256:6f9ccb2daa37c60dcbd59b83551eeaf4b57748344f1f3be82cf628b7311a489f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
